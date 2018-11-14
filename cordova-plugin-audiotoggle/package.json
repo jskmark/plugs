@@ -1,0 +1,55 @@
+{
+  "_from": "cordova-plugin-audiotoggle",
+  "_id": "cordova-plugin-audiotoggle@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-pDn3ExPN6J7qyd/Br98qLOHnU0k=",
+  "_location": "/cordova-plugin-audiotoggle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-audiotoggle",
+    "name": "cordova-plugin-audiotoggle",
+    "escapedName": "cordova-plugin-audiotoggle",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-audiotoggle/-/cordova-plugin-audiotoggle-1.0.3.tgz",
+  "_shasum": "a439f71313cde89eeac9dfc1afdf2a2ce1e75349",
+  "_spec": "cordova-plugin-audiotoggle",
+  "_where": "/home/user1/workspace/parrot/cordova/ewz/target/ParrotTeam",
+  "author": {
+    "name": "alongubkin"
+  },
+  "bugs": {
+    "url": "https://github.com/danielflippance/audiotoggle/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Cordova plugin for switching between speaker and earpiece when playing audio",
+  "homepage": "https://github.com/danielflippance/audiotoggle#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ionic",
+    "audio",
+    "toggle"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-audiotoggle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielflippance/audiotoggle.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

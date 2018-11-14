@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.parrot.Service"
+        version="0.7.0">
+
+  <name>Search Engine</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/Search.js" target="js/Search.js"/>
+
+  <js-module src="www/Search.js" name="Search">
+    <clobbers target="Search" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Search">
+        <param name="android-package" value="com.affosoft.plugin.Search"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Search.java" target-dir="src/com/affosoft/plugin/"/>
+    <source-file src="src/android/libs/json-simple-1.1.jar" target-dir="libs"/>
+  </platform>
+
+  <platform name="ios">
+
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Search">
+        <param name="ios-package" value="CDVSearch" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/CDVSearch.h" target-dir="SearchPlugin"/>
+    <source-file src="src/ios/CDVSearch.m" target-dir="SearchPlugin"/>
+  </platform>
+
+</plugin>
